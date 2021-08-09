@@ -35,23 +35,6 @@ const Smartmate = () => {
       />
     </div>
   )
-
-  return (
-    <div className="w-full flex flex-col items-start p-12">
-      <WeekPagination setWeek={setWeek} week={week} />
-      {/* <AnimateChart weeks={weeks} week={week} /> */}
-      <ProgressGoals
-        week={week}
-        weeks={weeks}
-        currentWeek={currentWeek}
-        goals={goals}
-      />
-      <input
-        className="w-1/4 bg-gray-300 rounded border border-gray-500 px-4 h-10 self-center my-10"
-        placeholder="Introduction to public hospital doctors"
-      />
-    </div>
-  )
 }
 
 export default Smartmate
